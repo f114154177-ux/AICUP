@@ -618,48 +618,6 @@ transform = Compose([
 ])
 ```
 
----
-
-## 授權與引用
-
-### 依賴項目
-- [Ultralytics YOLOv8/11/12](https://github.com/ultralytics/ultralytics)
-- [PyTorch](https://pytorch.org/)
-- [OpenCV](https://opencv.org/)
-
-### 引用
-如果本專案對您的研究有幫助，請引用：
-```
-@misc{aicup2025_aortic_valve,
-  title={AICUP 2025 Aortic Valve Object Detection},
-  author={Your Name},
-  year={2025}
-}
-```
-
----
-
-## 聯絡資訊
-
-- **專案負責人**: [您的姓名]
-- **Email**: [您的信箱]
-- **GitHub**: [專案連結]
-
----
-
-## 更新日誌
-
-### 2026-01-08
-- ✅ 初始版本發布
-- ✅ 完成基礎訓練流程
-- ✅ 添加 TTA 和多尺度預測
-- ✅ 實現模型集成功能
-- ✅ 完成文檔撰寫
-
----
-
-## 附錄
-
 ### A. 硬體需求建議
 
 | 配置等級 | GPU | 記憶體 | 訓練時間 (100 epochs) |
@@ -684,23 +642,3 @@ augmentation_config = {
     'mosaic': 0.5,      # Mosaic 增強
     'mixup': 0.1        # Mixup 增強
 }
-```
-
-### C. 檢查清單
-
-訓練前檢查：
-- [ ] GPU 驅動已安裝
-- [ ] CUDA 環境已配置
-- [ ] Python 套件已安裝
-- [ ] 資料集路徑正確
-- [ ] YAML 配置正確
-- [ ] 預訓練權重已下載
-
-預測前檢查：
-- [ ] 模型權重存在
-- [ ] 測試影像路徑正確
-- [ ] 輸出資料夾可寫入
-
----
-
-**祝您訓練順利！如有問題請參考除錯指南或聯繫專案維護者。**
